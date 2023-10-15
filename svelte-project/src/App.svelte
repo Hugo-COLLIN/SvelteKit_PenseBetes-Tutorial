@@ -6,6 +6,9 @@
   import Hello from "./lib/Hello.svelte";
   import Color from "./lib/Color.svelte";
   import Button2 from "./lib/Button2.svelte";
+  import UnidirBind from "./lib/UnidirBind.svelte";
+  import BidirBind from "./lib/BidirBind.svelte";
+  import ClassBind from "./lib/ClassBind.svelte";
 </script>
 
 <main>
@@ -42,6 +45,12 @@
   <div>
     <Color/>
   </div>
+
+  <UnidirBind/>
+
+  <BidirBind/>
+
+  <ClassBind/>
 
   <p>
     Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the
