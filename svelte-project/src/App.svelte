@@ -9,6 +9,10 @@
   import UnidirBind from "./lib/UnidirBind.svelte";
   import BidirBind from "./lib/BidirBind.svelte";
   import ClassBind from "./lib/ClassBind.svelte";
+  import Events from "./lib/Events.svelte";
+  import Conditionals from "./lib/Conditionals.svelte";
+  import Loops from "./lib/Loops.svelte";
+  import CounterStore from "./lib/CounterStore.svelte";
 </script>
 
 <main>
@@ -51,6 +55,14 @@
   <BidirBind/>
 
   <ClassBind/>
+
+  <Events/>
+
+  <Conditionals/>
+
+  <Loops/>
+
+  <CounterStore/>
 
   <p>
     Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the
